@@ -1,15 +1,8 @@
 variable "filename" {
-    default = "/root/animals.txt"
-}
-variable "content" {
- default = "I love animals"
- }
-variable "prefix" {
-    default = "Pet"
-}
-variable "separator" {
-    default = "-"
-}
-variable "length" {
-    default = 2
+    default = [
+        "/root/money.txt"
+        "/root/bear.txt"
+        "/root/hen.txt"
+    ]
+  
 }
