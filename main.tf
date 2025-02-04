@@ -1,4 +1,6 @@
-resource "local_file" "pets" {
-  filename = var.filename[count.index]
-  count = length(var.filename)
+resource "aws_iam_user" "admin-user"{
+	name = "juneed"
+	tags = {
+		Description = "Team Lead"
+	}
 }
